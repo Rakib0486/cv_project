@@ -1,0 +1,92 @@
+*{
+   margin: 0%;
+   padding: 0%;
+}
+body{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger
+}
+.container{
+    background-color: aqua;
+    max-width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+}
+/* Header start*/
+.profile_image{
+    height: 120px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    float: left;
+}
+.header_bio{
+    float: left;
+    padding: 30px;
+}
+.header_contact{
+    float: right;
+    padding: 40px;
+}
+.header_contact a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.header_contact a:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+/* Header end*/
+/* Closing div start*/
+.div_close{
+    clear: both;
+}
+/* Closing div end*/
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/* Education section start*/
+.content{
+
+}
+.div_left{
+    width: 30%;
+    float: left;
+}
+.div_right{
+    width: 70%;
+    float: left;
+}
+.div_right_1{
+    float: left;
+    width: 45%;
+}
+.div_right_2{
+    float: left;
+    width: 45%;
+}
+/* Education section ends*/
+#skills .div_right ul{
+    padding-left: 15px;
+}
+/* Footer section starts*/
+footer{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+footer p{
+    color: white;
+    padding-top: 10px;
+}
+/* Footer section ends*/
